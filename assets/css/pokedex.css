@@ -5,6 +5,32 @@
     padding: 0;
     list-style: none;
 }
+.search-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#pokemonInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
 
 .normal {
     background-color: #a6a877;
